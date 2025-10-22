@@ -123,9 +123,9 @@ for rank, (doc_id, score) in enumerate(results, 1):
 │   ├── basic_usage.py             # 基本使用示例
 │   └── parameter_tuning.py        # 参数调优示例
 ├── data/                          # 数据集目录
-│   └── 复旦中文文本分类语料库.zip   # 训练数据（20个类别）
+│   └── 复旦中文文本分类语料库/      # 训练数据（20个类别）
 └── output/                        # 输出目录
-    ├── index/                     # 索引文件（310MB）
+    ├── index/                     # 索引文件
     ├── results/                   # 实验结果
     ├── figures/                   # 可视化图表
     └── logs/                      # 日志文件
