@@ -106,9 +106,9 @@ for rank, (doc_id, score) in enumerate(results, 1):
 ```
 .
 ├── README.md                      # 项目说明
+├── 使用指南.md                     # 详细使用指南
 ├── LICENSE                        # MIT许可证
 ├── requirements.txt               # 依赖包列表
-├── setup.py                       # 安装脚本
 ├── .gitignore                     # Git忽略文件
 ├── src/                           # 源代码目录
 │   ├── sparse_retrieval_system.py # 核心检索系统（约800行）
@@ -122,12 +122,8 @@ for rank, (doc_id, score) in enumerate(results, 1):
 │   ├── README.md                  # 示例说明
 │   ├── basic_usage.py             # 基本使用示例
 │   └── parameter_tuning.py        # 参数调优示例
-├── docs/                          # 文档目录
-│   ├── 使用指南.md                # 详细使用指南
-│   └── 第一次实验报告_*.docx      # 实验报告
 ├── data/                          # 数据集目录
-│   └── 复旦中文文本分类语料库/
-│       └── train/                 # 训练数据（20个类别）
+│   └── 复旦中文文本分类语料库.zip   # 训练数据（20个类别）
 └── output/                        # 输出目录
     ├── index/                     # 索引文件（310MB）
     ├── results/                   # 实验结果
