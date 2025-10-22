@@ -44,7 +44,10 @@ output/logs/*.log       # 日志文件
 *.pdf                   # PDF文档
 
 # 数据集
-data/复旦中文文本分类语料库/
+data/
+
+# 忽略所有输出结果
+/output/
 
 # 临时文件
 *.tmp
