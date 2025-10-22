@@ -178,7 +178,7 @@ python parameter_tuning.py
 
 ## 📚 文档
 
-- [使用指南](docs/使用指南.md) - 详细的使用说明
+- [使用指南](使用指南.md) - 详细的使用说明
 - [示例代码](examples/README.md) - 更多示例
 - [API文档](src/sparse_retrieval_system.py) - 查看源代码中的docstring
 
@@ -212,7 +212,7 @@ python parameter_tuning.py
 
 如有问题或建议，欢迎通过以下方式联系：
 - 提交 [Issue](https://github.com/yourusername/bm25-chinese-retrieval/issues)
-- 发送邮件至：your.email@example.com
+- 发送邮件至：1494849734@qq.com
 
 ## 🌟 Star History
 
